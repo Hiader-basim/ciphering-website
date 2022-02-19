@@ -1,0 +1,46 @@
+.contener {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  position: relative;
+}
+/* Small*/
+@media (min-width: 768px) {
+  .contener {
+    width: 750px;
+  }
+}
+
+/* medum*/
+@media (min-width: 992px) {
+  .contener {
+    width: 970px;
+  }
+}
+/* large*/
+@media (min-width: 1200px) {
+  .contener {
+    width: 1170px;
+  }
+}
+/* start global rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* end global rules */
